@@ -14,7 +14,7 @@ public class SetsTests {
 
     @Test
     public void createSet() {
-        List<String> set = new ArrayList<>();
+        Set<String> set = set();
         set.add("one");
         set.add("two");
         set.add("three");
@@ -25,7 +25,7 @@ public class SetsTests {
 
     @Test
     public void createSetWithDupl() {
-        List<String> set = new ArrayList<>();
+        Set<String> set = set();
         set.add("one");
         set.add("two");
         set.add("three");
