@@ -45,7 +45,7 @@ public class SetsTests {
     }
 
     @Test
-    public void addByIndex() {
+    public void addElement() {
         Set<String> set = set();
         set.add("four");
 
